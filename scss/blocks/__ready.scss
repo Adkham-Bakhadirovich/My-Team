@@ -1,0 +1,119 @@
+.ready {
+  padding-top: 83px;
+  padding-bottom: 83px;
+  background-color: #F67E7E;
+  background-image: url ("../../images/readybg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + -88px) calc(50% - -80px);
+}
+
+.ready__title__wrapper {
+  width: 327px;
+}
+
+.ready__title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  color: #012F34;
+}
+
+.ready__link {
+  padding-top: 9px;
+  padding-right: 30px;
+  padding-bottom: 11px;
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #012F34;
+  border-radius: 24px;
+  border: 2px solid #012F34;
+  text-decoration: none;
+}
+
+.ready__link:active {
+  border-radius: 24px;
+  border: 2px solid #012F34;
+  background: #012F34;
+  color: white;
+}
+
+.ready__link__wrapper {
+  text-align: center;
+}
+
+@media only screen and (min-width:786px) {
+  
+  .ready {
+    padding-top: 76px;
+    padding-right: 98px;
+    padding-bottom: 76px;
+    padding-left: 97px;
+    background-image: url("../../images/readybg.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% + -293px) calc(50% - -32px);
+  }
+  
+  .ready__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ready__title__wrapper {
+    width: 336px;
+  }
+  
+  .ready__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #012F34;
+  }
+
+  .ready__link:active {
+    border-radius: 24px;
+    border: 2px solid #012F34;
+    background: #012F34;
+    color: white;
+  }
+  
+}
+
+@media only screen and (min-width:1440px) {
+  
+  .ready {
+    padding-top: 76px;
+    padding-right: 260px;
+    padding-bottom: 76px;
+    padding-left: 263px;
+    background-image: url("../../images/readybg.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% + -620px) calc(50% - -39px);
+  }
+  
+  .ready__title__wrapper {
+    width: 504px;
+  }
+  
+  .ready__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px; 
+    color: #012F34;
+  }
+
+  .ready__link:active {
+    border-radius: 24px;
+    border: 2px solid #012F34;
+    background: #012F34;
+    color: white;
+  }
+  
+}
